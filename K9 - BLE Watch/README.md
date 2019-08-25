@@ -41,9 +41,11 @@ This data was gathered by reading the Device Information BLE GATT service.
 - GATT
 - Human Interface Device `0x1812`
   - [Spec](https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Services/org.bluetooth.service.human_interface_device.xml)
+  - Can emulate a USB connection over this service?
 - Device Information
 - Battery service
 - Unknown `0xFEEA`
+  - Seems to have something to do with reading step counter, and writing commands...
 - Heart rate
 - Unknown `0xFEE7`
   - Maybe related to Mi Band? [Link](https://github.com/dkhmelenko/miband-android/blob/7dbb15e7186989136bee170d69bb34420db114fc/miband-sdk/src/main/java/com/khmelenko/lab/miband/model/Profile.java#L35)
